@@ -63,6 +63,8 @@ body{
     letter-spacing: 0.03em;
     color: var(--main-color);
     margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 
 }
 
@@ -93,8 +95,8 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-color);
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     display: block;
 }
 .header-link.current {
@@ -108,8 +110,8 @@ color: var(--accent-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--subtitle-colour);
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     display: block;
 }
 
@@ -119,8 +121,8 @@ color: var(--accent-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--subtitle-colour);
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     display: block;
 }
 
@@ -374,8 +376,8 @@ color: var(--accent-color);
     margin-top: 20px;
 }
 
-.footer-list{
-    gap: 9px;
+.footer-item:not(:last-child){
+    margin-bottom: 9px;
 }
 
 .footer-map {
